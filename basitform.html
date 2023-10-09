@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basit form</title>
+</head>
+<body>
+    <form name="giris" action="onay.jpg" method="post" >
+        <fieldset style="width: 600px; height: min-content;">
+        <legend>GİRİŞ EKRANI</legend>
+        <label tabindex="1">AdSoyad:</label><input type="text"  name="ad" autofocus="autofocus"><br> <br>
+        <label >Eposta:</label><input type="email"  name="eposta" ><br> <br>
+        <label >Şifre:</label><input type="password"  name="sifre" ><br> <br>
+        <label >Doğum Tarihi:</label><input type="date"  name="dtarih" ><br> <br>
+        <input type="radio" name="cins" value="erkek">Erkek <br>
+        <input type="radio" name="cins" value="kadin">Kadın <br> 
+        <p>Favori renk: <input type="color" name="favrenk"></p> 
+        <p>Dogum gunu <input type="datetime" name="dg"></p> 
+        <p>Ay yıl dg <input type="month" name="ayyil"></p> 
+        <p>Hafta yıl dg <input type="week" name="haftayil" ></p>
+        <p>Dogum saati(opsiyonel) <input type="time" name="saat"></p> 
+        <p>Dogum tarihi ve saati <input type="datetime-local" name="tarihsaat"></p> 
+        <p>Web sayfanız <input type="url" name="websayfa" ></p> 
+        <p>Favori Sayı(0-9): <input type="number" name="favsayi" min="0" max="9"></p> 
+        <p>Numara <input type="tel" name="telno"></p> 
+        
+
+        <Label>Yorum Satırı</Label> <br> <textarea name="yorum" cols="30" rows="10"></textarea> <br>
+        <p>Arama <input type="search" name="arama" ></p>
+        <input type="submit" value="Gönder"> 
+        <input type="reset" value="Sil"> <br> <br>
+
+
+        <button type="submit" value="Gonder">
+            <img src="onay.jpg" alt="EEEEEEEEEE" width="30" height="30">
+        </button>
+        <button type="reset" value="silla">
+            <img src="sil.png" alt="AAAAAAAAAAA" width="30" height="30">
+        </button>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr><br>
+        <p><strong> ANKET TAMAMLAMA DURUMU</strong></p>
+        
+        <p><progress id="harun" max="100" value="20"></progress>
+        <label for="harun">Harun</label></p>
+        <p><progress id="ilhan" max="100" value="20"></progress>
+        <label for="ilhan">İlhan</label></p>
+        <p><progress id="enes" max="100" value="20"></progress>
+        <label for="enes">Enes</label></p>
+        <p><progress id="isa" max="100" value="20"></progress>
+        <label for="isa">İsa</label></p>
+        <p><progress id="kadir" max="100" value="20"></progress>
+        <label for="kadir">Kadir</label></p>
+
+    </fieldset>
+
+    </form>
+</body>
+</html>

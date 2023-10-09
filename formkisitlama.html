@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="giris" action="onay.jpg" method="post" >
+        <fieldset style="width: 600px; height: min-content;">
+        
+        <input type="email"  name="eposta" placeholder="Eposta" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br> <br>  <!--Pattern ile kısıtlama-->
+        <input type="password"  name="sifre" placeholder="Şifre" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br> <br>
+        <input type="url"  name="url" pattern="https?://.+" placeholder="https:// ekleyin"><br> <br>
+        <input type="number" name="ciftsayi" step="2" placeholder="Çift sayı">
+       
+        <input type="submit" value="Gönder"> 
+        <input type="submit" formaction="formkisitlama.html" value="Baska gonder"> <br> <br>
+
+
+       
+
+    </fieldset>
+
+    </form>
+</body>
+</html>

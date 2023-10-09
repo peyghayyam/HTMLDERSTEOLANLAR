@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>ABC TASARIM PROGRAMI VE SATIŞ SÖZLEŞMESİ</h1></center>
+    <form action="bismiiillah.html">
+        
+        <fieldset style="background-color:darksalmon">
+            <legend style="font-size: large;"><strong>Sözleşme onay</strong> </legend>
+            <input type="checkbox">Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi onaylıyorum <br>
+            <input type="submit" value="Formu kaydet">
+            <input type="reset" value="Formu temizle">
+
+        </fieldset> <br>
+
+        <fieldset style="background-color: blue;">
+            <legend style="font-size: large;"><strong>Kişisel bilgiler</strong> </legend>
+            <table style="background-color: aqua;">
+                <tr>
+                    <td>Form guvenlik ID</td>
+                    <td><input type="text" name="id" disabled></td>
+                </tr>
+                <tr>
+                    <td>Ad</td>
+                    <td><input type="text" name="ad" placeholder="Adınızı girin"></td>
+                </tr>
+                <tr>
+                    <td>Soyad</td>
+                    <td><input type="text" name="soyad" placeholder="Adınızı girin"></td>
+                </tr>
+                <tr>
+                    <td>Yaş</td>
+                    <td><input type="number" name="yas" min="18" ></td>
+                </tr>
+                <tr>
+                    <td>Mail adres</td>
+                    <td><input type="email" name="mail" ></td>
+                </tr>
+                <tr>
+                    <td>Fotoğraf ekle</td>
+                    <td><input type="file" name="dosya" ></td>
+                </tr>
+            </table>
+        </fieldset> <br>
+
+        <fieldset style="background-color: red;">
+            <legend style="font-size: large;"><strong>Diğer bilgiler</strong> </legend>
+            <table style="background-color: darksalmon;">
+                <tr >
+                    <td colspan="2">Buradaki alanlar mesleki deneyimi kapsar</td>
+                </tr>
+                
+                <tr>
+                    <td >Sektore giriş tarihi</td>
+                    <td ><input type="date"></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Sektor deneyimi</td>
+                    <td><input name="deneyim" type="radio">1-5 yıl</td>
+                </tr>
+                <tr>
+                    <td><input name="deneyim" type="radio">6 - 10 yıl</td>
+                </tr>
+                <tr>
+                    <td><input name="deneyim" type="radio">11-15 yıl</td>
+                </tr>
+                <tr>
+                    <td><input name="deneyim" type="radio">15 yıldan fazla</td>
+                </tr>
+                <tr>
+                    <td>Programlama dilleri</td>
+                    <td><select name="diller" multiple> 
+                        <option value="csharp">C#</option>
+                        <option value="php">PHP</option>
+                        <option value="JAVA">JAVA</option>
+                        <option value="python">python</option>
+                        <option value="javascript">javascript</option>
+                    </select></td>
+                </tr>
+
+            
+            </table>
+        </fieldset>
+        
+
+
+
+        <fieldset style="background-color: purple;">
+            <legend style="font-size: large;"><strong>Sözleşme KOPYASI</strong> </legend>
+            <textarea name="kopya" id="" cols="40" rows="5">AAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</textarea>
+
+        </fieldset>
+
+        <fieldset style="background-color: darkslategray;">
+            <legend style="font-size: large;"><strong>Mail listesi</strong> </legend>
+            mail listesine katılmak <u>istiyorum</u> <input name="izin" type="radio"> <br>
+            mail listesine katılmak <u>istemiyorum</u> <input name="izin" type="radio">
+
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
