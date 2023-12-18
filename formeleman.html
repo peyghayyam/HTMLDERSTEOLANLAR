@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>form</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <form action="/kart2.html">
+        <div class="form-group mb-3">
+            <!--mail -->
+            <label class="form-label">Email adresi</label>
+            <input type="email" class="form-control" id="exampleInputEmail1">
+            <div id="emailHelp" class="form-text">e-posta guvencesi</div>
+        </div>
+        <div class="form-group mb-3">
+            <!--password-->
+            <label class="form-label">Şifre</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group mb-3">
+            <!--textbox lg-->
+            <input type="text" class="form-control form-control-lg" placeholder="yaz agaaaaaaaaaa">
+        </div>
+        <div class="form-group mb-3">
+            <!--textbox-->
+            <input type="text" class="form-control form-control-lg" placeholder="yaz agaaaaaaaaaa" readonly>
+        </div>
+        <div class="form-group mb-3">
+            <!--textbox-->
+            <label class="form-label">Disabled select menu</label>
+            <select id="disabledSelect" class="form-select" disabled>
+                <option>Disabled select</option>
+            </select>
+        </div>
+        <div class="form-group mb-3">
+            <!--textbox -->
+            <label class="form-label">Disabled select menu</label>
+            <select id="disabledSelect" class="form-select">
+                <option>Kadın</option>
+                <option>Erkek</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <!--metin kutusu-->
+            <label class="form-label">Yorum:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        </div>
+        <div class="form-group mb-3 form-check-inline">
+            <!--checkbox -->
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label">dokun</label>
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label">dokun</label>
+        </div><br />
+        <div class="form-group form-check-inline">
+            <!--radio-->
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="secim">ne
+            </label>
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="secim">ne
+            </label>
+        </div>
+        <div class="form-group mb-3">
+            <input type="color" class="form-control form-control-color" value="#CCCCCC">
+        </div>
+        <button type="submit" class="btn btn-primary">gonder</button>
+    </form>
+</body>
+</html>
